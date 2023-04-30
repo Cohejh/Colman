@@ -144,8 +144,8 @@ class GUI:
         # Create the Stockfish depth scale
         stockfish_depth_frame = tk.Frame(left_frame)
         tk.Label(stockfish_depth_frame, text="Depth Iterations").pack(side=tk.LEFT, pady=19)
-        self.stockfish_depth = tk.IntVar(value=20)
-        self.stockfish_depth_scale = tk.Scale(stockfish_depth_frame, from_=1, to=35, orient=tk.HORIZONTAL,
+        self.stockfish_depth = tk.IntVar(value=15)
+        self.stockfish_depth_scale = tk.Scale(stockfish_depth_frame, from_=1, to=20, orient=tk.HORIZONTAL,
                                               variable=self.stockfish_depth)
         self.stockfish_depth_scale.pack()
         stockfish_depth_frame.pack(anchor=tk.NW)
