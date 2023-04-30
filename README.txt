@@ -78,8 +78,8 @@ recommended, but 0.1s (100ms) is recommended for blitz/bullet chess games. Value
 but can go from 0 to 20.
 
 - Depth Iterations: How many moves the engine thinks ahead. Higher values are better, but your computer may struggle. 20 is recommended for
-a good computer, while 15 is for the average computer. VALUES OVER 20 ARE FOR POWERFUL COMPUTERS ONLY. Value is 20 by default, but can go
-from 1 to 35.
+a good computer, while 15 is for the average computer. VALUES OVER 15 ARE FOR POWERFUL COMPUTERS ONLY. Value is 15 by default, but can go
+from 1 to 20.
 
 - Memory: How much computer power to allocate to the engine. Value should be about halkf your processing power. If you have 4GB Ram, set to 2048,
 if you have 8GB, set to 4096. If you have 16GB, set to 8192. If you have 32GB or higher, set to 16384. Most computer have 8GB, so it is set to 4096
