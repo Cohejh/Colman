@@ -16,7 +16,7 @@ Colman Documentation
 - If you have a very modern PC, choose Windows -> Next Gen
 - If you have an old, or not so good PC, choose Windows -> General
 
-4. Drag the file named "engine" inside the folder, into the base Colman folder.
+4. Drag the file named "engine" inside the folder, into the base Colman folder. Then delete the engines folder and all its contents. 
 
 5. ** Windows only ** Right click on the engine file, once it is in the Colman folder and select "Copy as path"
 
