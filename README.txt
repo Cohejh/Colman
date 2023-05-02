@@ -11,39 +11,28 @@ Colman Documentation
 
 3. In the Colman folder, there should be a folder named "engines", and select the right engine for you:
 
-- If you have a Mac with an Intel chip, choose macOS -> Intel
-- If you have a Mac with an Apple Chip (e.g. m1/m2 series etc.) choose macOS -> Apple Silicon
-- If you have a very modern PC, choose Windows -> Next Gen
-- If you have an old, or not so good PC, choose Windows -> General
+- If you have a very modern PC, choose Next Gen
+- If you have an old, or not so good PC, choose General
 
 4. Drag the file named "engine" inside the folder, into the base Colman folder. Then delete the engines folder and all its contents. 
 
-5. ** Windows only ** Right click on the engine file, once it is in the Colman folder and select "Copy as path"
+5. Right click on the engine file, once it is in the Colman folder and select "Copy as path"
 
-6. Go into the "src" folder, and open the "gui.py" file in a plain text editor - TextEdit for macOS, and Notepad for Windows.
+6. Go into the "src" folder, and open the "gui.py" file in Notepad.
 
 7. Edit line 185, as stated below:
 
-- If you have Windows, remove the text between the speechmarks, while leaving the speechmarks themselves. Then paste the path you copied earlier
+- Remove the text between the speechmarks, while leaving the speechmarks themselves. Then paste the path you copied earlier
 imbetween the speechmarks so the line says: self.engine_path = "C:/Users/[UserName]/Desktop/Colman/engine.exe", with [UserName] being your
 username
-
-- If you have macOS, replace the text between the speechmarks so that the line says
-something like: self.engine_path = "~/Users/[UserName]/Desktop/Colman/engine", ** Remember to replace [UserName] with your username**
 
 8. Save the changes made with CMD + S or CTRL + S.
 
 9. Open Terminal, and type "cd Desktop/Colman"
 
-10. Then type the following:
+10. Then type the following: "python -m venv venv"
 
-- Windows: "python -m venv venv"
-- macOS: "python3 -m venv venv"
-
-11. Then type the following:
-
-- Windows: "venv\Scripts\pip.exe install -r requirements.txt"
-- macOS: "venv/bin/pip3 install -r requirements.txt"
+11. Then type the following: "venv\Scripts\pip.exe install -r requirements.txt"
 
 You have finished, congratulations.
 
@@ -51,10 +40,7 @@ You have finished, congratulations.
 
 1. Open Terminal, and type "cd Desktop/Colman"
 
-2. Type the following:
-
-- Windows: "venv\Scripts\python.exe src\gui.py"
-- macOS: "venv/bin/python3 src/gui.py"
+2. Type the following: "venv\Scripts\python.exe src\gui.py"
 
 3. In the window that just popped up, select the chess website (chess.com or lichess.org) and click open browser.
 
