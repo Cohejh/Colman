@@ -71,4 +71,4 @@ from 1 to 20.
 if you have 8GB, set to 4096. If you have 16GB, set to 8192. If you have 32GB or higher, set to 16384. Most computer have 8GB, so it is set to 4096
 by default.
 
-- CPU Threads: Very techy stuff, do not touch unless you know what you are doing. If accidentaly changed, value is 1 be default.
+- CPU Threads: Very techy stuff, do not touch unless you know what you are doing. If accidentaly changed, value is 1 by default.
